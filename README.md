@@ -5,7 +5,7 @@
 
 ## User Guide:
 When in idle/menu mode you can change the LED matrix intensity by touching the micro:bit logo, there is a full power mode and low power mode to lower energy consumption.
-To activate arm the system, press both buttons at the same time.
+To arm the system, press both buttons at the same time.
 To deactivate the system at any point, touch the micro:bit logo
 
 ## Future changes/improvements
