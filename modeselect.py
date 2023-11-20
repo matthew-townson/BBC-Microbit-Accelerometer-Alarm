@@ -1,3 +1,4 @@
+#switches between high and low power mode
 import music, renderer
 
 def changeMode(x):

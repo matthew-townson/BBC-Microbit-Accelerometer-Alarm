@@ -1,3 +1,4 @@
+#arming warning sequence
 from microbit import sleep
 import music, renderer
 

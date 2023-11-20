@@ -1,3 +1,4 @@
+#Contains all led display information for different states of the program
 from microbit import display, Image
 
 def setDisplay(image, mode):

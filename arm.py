@@ -1,3 +1,4 @@
+#system armed logic
 from microbit import pin_logo, accelerometer, sleep, display, Image
 import music, renderer
 
