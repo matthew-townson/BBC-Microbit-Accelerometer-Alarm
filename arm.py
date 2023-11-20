@@ -1,6 +1,6 @@
 #system armed logic
 from microbit import pin_logo, accelerometer, sleep, display, Image
-import music, renderer
+import countdown, music, renderer
 
 def disarm():
     music.stop()
@@ -22,15 +22,8 @@ def armed(displayMode):
             disarm()
             break
         if (abs(accelerometer.get_strength())-1000) > 125:
-            print('Motion detected, beginning countdown\n3')
-            renderer.setDisplay('countdown1', displayMode)
-            sleep(1000)
-            print('2')
-            renderer.setDisplay('countdown2', displayMode)
-            sleep(1000)
-            print('1')
-            renderer.setDisplay('countdown3', displayMode)
-            sleep(1000)
+            print('Motion detected, beginning countdown')
+            countdown.selector(3, 0, 'countdownX', displayMode)
             if pin_logo.is_touched():
                 alarm = 0
                 disarm()

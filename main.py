@@ -1,4 +1,4 @@
-#Accelerometer alarm for bbc micro:bit
+#Accelerometer alarm for the BBC micro:bit
 #Created by Matthew Townson - https://mtownson.com
 
 from microbit import button_a, button_b, pin_logo, sleep
