@@ -17,4 +17,4 @@ If you have any suggestions etc let me know!
 ## Known annoyances
 **YES I DIDN'T USE CASE STATEMENTS** - because they aren't supported in the online assembler, and I can't be bothered to look for an assembler that supports a newer version of Python at the moment  
 ## Footnote:  
-If you wish to compile from source, go to [https://python.microbit.org](python.microbit.org) and import the files in this repo. **DO NOT** attempt to use Microsoft MakeCode's Python implementation, as it does not use the modified version of micropython that the other compiler uses.
+If you wish to compile from source, go to [python.microbit.org](https://python.microbit.org) and import the files in this repo. **DO NOT** attempt to use Microsoft MakeCode's Python implementation, as it does not use the modified version of micropython that the other compiler uses.
